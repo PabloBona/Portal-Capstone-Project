@@ -14,115 +14,139 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <header class="main-nav">
-      <div class="top-nav" id="top-nav">
-        <i class="bx bxl-facebook-square"></i>
-        <i class="bx bxl-twitter"></i>
-        <a href="#">English</a>
-        <a href="#">My Page</a>
-        <a href="#">Logout</a>
-      </div>
-      <nav class="navbar navbar-expand-md ">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Hidden brand</a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            </form>
+    <header id="start" class="main-nav">
+      <div class="top-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ul class="list-inline d-flex justify-content-end gap-4 social">
+                <li class="list-inline-item">
+                  <a href="#"><i class="bx bxl-facebook-square"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="bx bxl-twitter"></i></a>
+                </li>
+                <li class="list-inline-item"><a href="#">Logout</a></li>
+                <li class="list-inline-item"><a href="#">My Page</a></li>
+                <li class="list-inline-item"><a href="#">Español</a></li>
+              </ul>
+            </div>
           </div>
+        </div>
+      </div>
+      <nav class="navigation">
+        <div class="logo-placeholder">
+          <a href="/index.html#start-index" target="_blank" rel="noopener"
+            ><i class="bx bxs-bowl-hot">HealthyFood</i></a
+          >
+        </div>
+        <div class="burguer-menu">
+          <button class="btn" type="button">
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <ul class="list-unstyled">
+            <li><a id="port-link" href="/index.html#start-index">Home</a></li>
+            <li><a id="about-link" href="#about">Program</a></li>
+            <li><a id="cont-link" href="#contact">Join</a></li>
+            <li><a id="cont-link" href="#contact">Sponsor</a></li>
+            <li><a id="cont-link" href="#contact">News</a></li>
+            <button class="btn">Hf JoinUs</button>
+          </ul>
         </div>
       </nav>
     </header>
-    <section class="hero about pt-3">
-      <div class="container-md text-red text-center">
-        <h2>"Hello! Food lovers"</h2>
-      </div>
-      <div class="titles-container container-md">
-        <h1 class="text-center">
-          <span class="text-red">HEALTHY FOOD</span>
-          <span class="text-red">GLOBAL CONFERENCE</span>
-          <span class="text-red">2023</span>
-        </h1>
-      </div>
-      <div class="container-md">
-        <div class="titles-container about container-md border-1 rounded text-center">
-        <h6>  The Healthy Food Global Conference 2023 brings together a community of experts, chefs, and distinguished personalities from the culinary world. This prestigious event offers a unique opportunity to delve into the realm of healthy and eco-friendly cuisine, providing participants with a comprehensive platform to learn the finest techniques. </h6>
-        </div>
-      </div>
-      <div class="titles-container container-md lh-1 py-2">
-        <p class="text-center">Please Contact us per email for any further questions</p>
-        <p class="text-center">about WF Conference 2023</p>
-        <p class="text-center fw-bold text-decoration-underline">wfc2023@university.com</p>
-      </div>
-    </section>
-    <section class="container-md main-schedule-about p-4">
-      <h3 class="text-center fs-3 main-program-about fw-bolder">World Food Conference Group</h3>
-      <h3 class="text-center fs-2 main-program-about fw-bold">WFC 2023 Logo</h3>
-      <p class="text-center container-md px-5 p-3">The logo of FWC was decided trought the "LOGO Competition from 8, june to 7, july"</p>
-      <div class="about-container-img">
-        <img class="logo" src="./img/world-food-logo.png" alt="WFC logo">
-      </div>
-      <hr class="grey-bar">
-      <p class="text-center fs-3 fw-bold main-program p-4">See the past WF Global Conference </p>
-      <p class="text-center container-md px-5 p-3">Take a look the last two WFC which took place in Venezuela and Brasil"</p>
-      <div class="container-md last-meet">
-        <div class="image-container">
-          <img src="./img/venezuela-2022.jpg" alt="Venezuela 2022">
-          <div class="text-overlay">
-            <h3><span>2022</span> WFC in Venezuela</h3>
-          </div>
-        </div>
-        <div class="image-container">
-          <img src="./img/brasil-2021.jpg" alt="Brasil 2021">
-          <div class="text-overlay">
-            <h3><span>2021</span> WFC in Goias</h3>
-          </div>
-        </div>
-      </div>
-    </section>
- 
-    <section class="main-partners show">
-      <p class="text-center fs-3">Partner</p>
-      <div class="container-md">
-        <div class="row flex-wrap justify-content-center">
-          <div class="d-flex gap-3">
-            <img src="./iconos/mozilla.svg" alt="mozilla">
-            <img src="./iconos/google.svg" alt="google">
-            <img src="./iconos/naver.svg" alt="naver">
-            <img src="./iconos/daum.svg" alt="daum">
-            <img src="./iconos/airbnb.svg" alt="airbnb">
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer show">
+    <section class="hero p-3">
       <div class="container">
         <div class="row">
-          <div class="col d-flex justify-content-center gap-4 p-4">
-            <a class="navbar-brand" href="#">Hidden brand</a>
+          <div class="col text-center">
+            <span class="h3 text-red">"Hello, Sharing world"</span>
+            <h1 class="text-red mb-4">Healthy food global summit 2023</h1>
+            <p class="event-description about">
+              The Healthy Food Global Conference 2023 brings together a
+              community of experts, chefs, and distinguished personalities from
+              the culinary world.
+            </p>
+
+            <div class="event-info about mt-4">
+              <p class="text-center">
+                Please Contact us per email for any further questions
+              </p>
+              <p class="text-center">About WF Conference 2023!</p>
+              <p class="text-center fw-bold text-decoration-underline">
+                wfc2023@university.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-logo container">
+      <div class="row main-schedule-about">
+        <div class="col">
+          <h2 class="text-center logo-font fw-bold pt-4">
+            World Food Conference Group
+          </h2>
+          <h2 class="text-center logo-font fs-3 fw-bold">WFC 2023 Logo</h2>
+          <p class="text-center sm-fz">
+            The logo of FWC was decided trought the "LOGO Competition from 8,
+            june to 7, july" After online public voting and selectiong commite
+            judging process.
+          </p>
+          <div class="container about-container-img">
+            <img class="logo" src="./img/world-food-logo.png" alt="WFC logo" />
+          </div>
+          <hr class="grey-bar" />
+          <p class="text-center fw-bold main-program logo-font">
+            See the past WF Global Conference
+          </p>
+          <p class="text-center sm-fz">
+            Take a look the last two WFC which took place in Venezuela and
+            Brasil"
+          </p>
+          <div class="container-md last-meet">
+            <div class="image-container">
+              <img src="./img/venezuela-2022.jpg" alt="Venezuela 2022" />
+              <div class="text-overlay">
+                <h3><span>2022</span> WFC in Venezuela</h3>
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="./img/brasil-2021.jpg" alt="Brasil 2021" />
+              <div class="text-overlay">
+                <h3><span>2021</span> WFC in Goias</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-partners">
+      <h2 class="text-center">Partners</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-center sp">
+            <img src="./iconos/mozilla.svg" alt="mozilla" />
+            <img src="./iconos/google.svg" alt="google" />
+            <img src="./iconos/naver.svg" alt="naver" />
+            <img src="./iconos/daum.svg" alt="daum" />
+            <img src="./iconos/airbnb.svg" alt="airbnb" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-center gap-4 mt-2">
+            <a class="navbar-brand" href="#"
+              ><i class="bx bxs-bowl-hot">HealthyFood</i></a
+            >
             <p>2023 World Food Conference</p>
           </div>
         </div>
@@ -133,5 +157,6 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
