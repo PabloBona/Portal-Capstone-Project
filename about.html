@@ -37,28 +37,34 @@
           </div>
         </div>
       </div>
-      <nav class="navigation">
-        <div class="logo-placeholder">
-          <a href="/index.html#start-index" target="_blank" rel="noopener"
-            ><i class="bx bxs-bowl-hot">HealthyFood</i></a
-          >
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="navigation">
+              <div class="logo-placeholder">
+                <a class="btn" href="/index.html"
+                  ><img src="./img/logo.svg" alt="Healthy Food Logo"
+                /></a>
+              </div>
+              <div class="burguer-menu">
+                <button class="btn" type="button">
+                  <i class="bx bx-menu"></i>
+                </button>
+              </div>
+              <div class="nav-links">
+                <ul class="list-unstyled">
+                  <li><a href="/index.html#start">Home</a></li>
+                  <li><a href="/about.html#start">About</a></li>
+                  <li><a href="#contact">Join</a></li>
+                  <li><a href="#contact">Sponsor</a></li>
+                  <li><a href="#contact">News</a></li>
+                  <li><button class="btn">Hf JoinUs</button></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
-        <div class="burguer-menu">
-          <button class="btn" type="button">
-            <i class="bx bx-menu"></i>
-          </button>
-        </div>
-        <div class="nav-links">
-          <ul class="list-unstyled">
-            <li><a id="port-link" href="/index.html#start-index">Home</a></li>
-            <li><a id="about-link" href="#about">Program</a></li>
-            <li><a id="cont-link" href="#contact">Join</a></li>
-            <li><a id="cont-link" href="#contact">Sponsor</a></li>
-            <li><a id="cont-link" href="#contact">News</a></li>
-            <button class="btn">Hf JoinUs</button>
-          </ul>
-        </div>
-      </nav>
+      </div>
     </header>
     <section class="hero p-3">
       <div class="container">
@@ -97,8 +103,8 @@
             june to 7, july" After online public voting and selectiong commite
             judging process.
           </p>
-          <div class="container about-container-img">
-            <img class="logo" src="./img/world-food-logo.png" alt="WFC logo" />
+          <div class="about-container-img">
+            <img class="logo" src="./img/logo.svg" alt="WFC logo" />
           </div>
           <hr class="grey-bar" />
           <p class="text-center fw-bold main-program logo-font">
@@ -108,7 +114,7 @@
             Take a look the last two WFC which took place in Venezuela and
             Brasil"
           </p>
-          <div class="container-md last-meet">
+          <div class="last-meet">
             <div class="image-container">
               <img src="./img/venezuela-2022.jpg" alt="Venezuela 2022" />
               <div class="text-overlay">
@@ -127,14 +133,26 @@
     </section>
 
     <section class="main-partners">
-      <h2 class="text-center">Partners</h2>
       <div class="container">
         <div class="row">
-          <div class="col d-flex justify-content-center sp">
+          <div class="col">
+            <h2 class="text-center mb-4">Partners</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4 col-md-2 d-flex align-items-center">
             <img src="./iconos/mozilla.svg" alt="mozilla" />
+          </div>
+          <div class="col-4 col-md-2 d-flex align-items-center">
             <img src="./iconos/google.svg" alt="google" />
+          </div>
+          <div class="col-4 col-md-2 d-flex align-items-center">
             <img src="./iconos/naver.svg" alt="naver" />
+          </div>
+          <div class="col-4 col-md-2 d-flex align-items-center">
             <img src="./iconos/daum.svg" alt="daum" />
+          </div>
+          <div class="col-4 col-md-2 d-flex align-items-center">
             <img src="./iconos/airbnb.svg" alt="airbnb" />
           </div>
         </div>
@@ -143,7 +161,7 @@
     <footer class="main-footer">
       <div class="container">
         <div class="row">
-          <div class="col d-flex justify-content-center gap-4 mt-2">
+          <div class="col d-flex justify-content-center gap-4 mt-3">
             <a class="navbar-brand" href="#"
               ><i class="bx bxs-bowl-hot">HealthyFood</i></a
             >
