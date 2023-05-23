@@ -36,7 +36,6 @@ body {
   background-color: #ee523c;
   padding: 1rem 2rem;
   color: #fff;
-  border-radius: 5%;
   font-size: 1rem;
 }
 
@@ -119,7 +118,6 @@ body {
 .hero .event-description {
   padding: 1rem;
   border: 3px solid #fff;
-  font-size: 0.9rem;
 }
 
 .hero .city {
@@ -175,7 +173,7 @@ h2.salmon-underline::after {
 }
 
 .cardRow {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.25);
   padding: 1rem;
   display: flex;
 }
@@ -305,7 +303,6 @@ h2.salmon-underline::after {
   background-color: #fff;
   padding: 1rem;
   max-width: 90vw;
-  font-size: 0.9rem;
   border: 1px solid var(--grey);
 }
 
@@ -409,13 +406,27 @@ h2.salmon-underline::after {
   font-size: 0.7rem;
 }
 
+.main-footer img {
+  max-width: 8rem;
+}
+
+.footer-end {
+  font-size: 0.7rem;
+}
+
+.bxs-bowl-hot {
+  font-size: 1rem;
+}
+
 @media (min-width: 768px) {
   .nav-links button {
     display: flex;
     background-color: #fff;
-    font-size: 0.7rem;
-    border: 1px solid var(--salmon);
+    font-size: 0.9rem;
+    border: 3px solid var(--salmon);
     color: var(--salmon);
+    border-radius: 0;
+    font-weight: 600;
   }
 
   /* TopNav ONLY IN 768  */
@@ -431,8 +442,14 @@ h2.salmon-underline::after {
 
   .social {
     margin: 0;
-    padding: 0.3rem 0;
+    padding: 0.4rem 0;
     align-items: center;
+  }
+
+  .social li {
+    display: flex;
+    align-items: center;
+    line-height: 1;
   }
 
   .social a {
@@ -520,10 +537,10 @@ h2.salmon-underline::after {
   }
 
   .event-description.about {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
-  .event-info.about p {
+  .logo-container p {
     font-size: 1rem;
   }
 
@@ -571,7 +588,7 @@ h2.salmon-underline::after {
   }
 
   .event-description.about {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .event-info.about p {
@@ -587,6 +604,6 @@ h2.salmon-underline::after {
   }
 
   .main-footer {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }

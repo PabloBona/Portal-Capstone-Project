@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse Portfolio</b></h3>
+  <h3><b>World Food Conference 2023</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -25,22 +25,25 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Pablo Bonasera's Microverse Portfolio <a name="about-project"></a>
+# 📖 **World Food Conference** <a name="about-project"></a>
 
-**Pablo Bonasera's Microverse Portfolio** This repo contains my portfolio and a selection of projects and works that I have completed. Feel free to explore these projects and know me better.
+**World Food Conference** is a webpage that focuses on promoting healthy food and the significance of maintaining a balanced diet.
+The Healthy Food Global Conference 2023 will cover a diverse range of topics related to healthy eating, such as nutrition, sustainable agriculture, and culinary practices.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-My Portfolio's tech stack included a combination of HTML and CSS to structure and style the content of my web pages. HTML provided the foundation for organizing the page's structure, while CSS added visual design elements, such as colors, fonts, and layouts. Additionally, I used Figma, a user interface design tool, to create a visual representation of the web pages before starting to code in HTML and CSS. Figma allowed me to explore different design options and iterate on the page's layout and elements before committing to a final design.
+**World Food Conference** tech stack included a combination of HTML and CSS and Boostrap to structure and style the content of my web pages. HTML provided the foundation for organizing the page's structure, while CSS added visual design elements, such as colors, fonts, and layouts.
+Bootstrap, played a vital role in streamlining the development process. By leveraging Bootstrap's pre-built components and responsive grid system, I was able to create a responsive and visually appealing website. The framework offered a wide range of ready-to-use CSS classes and JavaScript plugins, allowing me to easily implement features like navigation menus, buttons, forms, and modal windows.
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.w3schools.com/html/">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-    <li><a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?type=design&node-id=0-1&t=ZRVAxLHdljOKsnUT-0">Figma Design</a></li>
+    <li><a href="https://getbootstrap.com/">Boostrap</a></li>
+
   </ul>
 </details>
 
@@ -48,6 +51,7 @@ My Portfolio's tech stack included a combination of HTML and CSS to structure an
 
 - **Modern UI Design**
 - **Valid HTML5 & CSS3**
+- **Boostrap**
 - **Fully Responsive**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -60,7 +64,7 @@ My Portfolio's tech stack included a combination of HTML and CSS to structure an
 
 ## ⭐️ Video Demo <a name="live-demo"></a>
 
-[![Project presentation: video demo](https://cdn.loom.com/sessions/thumbnails/128b7af0dfb94ee4a85560bb69ad74d6-with-play.gif)](https://www.loom.com/share/128b7af0dfb94ee4a85560bb69ad74d6)
+- Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +94,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/PabloBona/PabloBona.github.io.git
+  git clone https://github.com/PabloBona/Portal-Capstone-Project.git
 ```
 
 ### Install
@@ -98,7 +102,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd PabloBona.github.io
+  cd Portal-Capstone-Project.io
   npm install
 ```
 
@@ -131,12 +135,8 @@ This proyect is deployed using [GitHub Pages](https://pages.github.com/).
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [x] **Add contact form**
-- [x] **Improve desktop version**
-- [x] **Add animations and transitions**
 - [ ] **Add support for multiple languages**
 - [ ] **Implement a dark mode option**
-- [ ] **Add new breakpoints for screen dimension sm-lg-xl**
 - [ ] **Integrate with social media platforms**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -157,7 +157,7 @@ If you found this project useful, please consider giving it a star on GitHub to 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-"Special thanks to Microverse (https://www.microverse.org/) for providing a collaborative learning platform that has allowed me to improve my programming skills and has helped me achieve my professional goals."
+"The design concept was created by Cindy Shin and can be found on Behance. We appreciate her talent and creativity in providing the foundation for our project's visual aesthetics."
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
