@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap');
+
 :root {
   --dark: #272a31;
   --salmon: #ee523c;
@@ -19,10 +20,12 @@ body {
   font-size: 2rem;
   line-height: 1rem;
 }
+
 .list-unstyled button {
   display: none;
 }
-/* TopNav ONLY IN 768 ++*/
+
+/* TopNav ONLY IN 768 */
 .top-nav {
   display: none;
 }
@@ -78,6 +81,14 @@ body {
   position: fixed;
 }
 
+.join-btn button {
+  background-color: #ee523c;
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 5%;
+  font-size: 1rem;
+}
+
 .burguer-menu button:active {
   border: none;
 }
@@ -120,8 +131,8 @@ body {
   background-size: cover;
 }
 
-/* Main Schedule*/
-h2.salmon-underline:after {
+/* Main Schedule */
+h2.salmon-underline::after {
   content: '';
   display: block;
   border-bottom: 1px solid var(--salmon);
@@ -155,6 +166,7 @@ h2.salmon-underline:after {
 .cardRow {
   background: rgba(255, 255, 255, 0.1);
   padding: 1rem;
+  display: flex;
 }
 
 .main-partners img {
@@ -169,14 +181,6 @@ h2.salmon-underline:after {
 
 .cardRow p {
   font-size: 0.8rem;
-}
-
-.join-btn button {
-  background-color: #ee523c;
-  padding: 1rem 2rem;
-  color: #fff;
-  border-radius: 5%;
-  font-size: 1rem;
 }
 
 .cardRow img {
@@ -216,7 +220,7 @@ h2.salmon-underline:after {
   color: var(--salmon);
 }
 
-.content-invited p.speaker-title:after {
+.content-invited p.speaker-title::after {
   content: '';
   display: block;
   border-bottom: 1px solid var(--grey);
@@ -224,11 +228,6 @@ h2.salmon-underline:after {
   padding-top: 0.4rem;
   width: 1.5rem;
   margin-bottom: 1rem;
-}
-
-.content-invited h5 {
-  color: #ee523c;
-  font-weight: 600;
 }
 
 .content-invited h5 {
@@ -298,6 +297,16 @@ h2.salmon-underline:after {
   font-size: 0.7rem;
   margin-bottom: 0.2rem;
 }
+
+.main-partners h2::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--salmon);
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 6%;
+}
+
 .main-schedule-about h2:nth-child(2)::after {
   content: '';
   display: block;
@@ -330,6 +339,7 @@ h2.salmon-underline:after {
   border: 1px solid var(--grey);
   margin-top: 4rem;
 }
+
 .last-meet img {
   width: 100%;
 }
@@ -366,15 +376,6 @@ h2.salmon-underline:after {
   display: block;
 }
 
-.main-partners h2::after {
-  content: '';
-  display: block;
-  border-bottom: 1px solid var(--salmon);
-  margin: 0 auto;
-  padding-top: 1rem;
-  width: 6%;
-}
-
 .main-partners {
   background-color: #7a7a7a;
   height: 30vh;
@@ -386,49 +387,52 @@ h2.salmon-underline:after {
 .main-partners .sp {
   gap: 0.7rem;
 }
-.cardRow {
-  display: flex;
-}
 
 @media (min-width: 768px) {
   .list-unstyled button {
     display: flex;
+    background-color: #fff;
+    font-size: 0.7rem;
+    border: 1px solid var(--salmon);
+    color: var(--salmon);
   }
-  /* TopNav ONLY IN 768 ++*/
+
+  /* TopNav ONLY IN 768 */
   .top-nav {
     display: block;
     background-color: #272a31;
   }
+
   .social {
     margin: 0;
     padding: 0.2rem 0;
     align-items: center;
   }
+
   .social a {
     text-decoration: none;
     color: #fff;
     font-size: 0.7rem;
   }
+
   .logo-placeholder {
     display: block;
   }
+
   .logo-placeholder i {
     color: #272a31;
   }
-  .nav-links li a {
-    color: #272a31;
-  }
+
   .nav-links a {
     text-decoration: none;
     transition: color 0.3s ease;
   }
-  .nav-links a:hover {
-    color: var(--salmon);
+
+  .nav-links li a {
+    color: #272a31;
   }
-  .list-unstyled button {
-    background-color: #fff;
-    font-size: 0.7rem;
-    border: 1px solid var(--salmon);
+
+  .nav-links a:hover {
     color: var(--salmon);
   }
 
@@ -444,26 +448,33 @@ h2.salmon-underline:after {
     align-items: center;
     padding: 1rem 2rem;
   }
+
   .nav-links {
     display: block;
   }
+
   .nav-links ul {
     display: flex;
     gap: 2rem;
     margin: 0;
   }
+
   .burguer-menu {
     display: none;
   }
+
   .hero h1 {
     font-size: 3rem;
   }
+
   .cardRow {
     display: block;
   }
+
   .speaker-contain {
     margin-bottom: 2rem;
   }
+
   .cardRow img {
     max-width: 70%;
     margin: 0 auto;
@@ -491,6 +502,7 @@ h2.salmon-underline:after {
   .event-info.about p {
     font-size: 1rem;
   }
+
   .logo-font {
     font-size: 2rem;
   }
@@ -509,6 +521,7 @@ h2.salmon-underline:after {
   .hero h1 span {
     display: block;
   }
+
   .cardRow img {
     max-width: 70%;
     margin: 0 auto;
@@ -524,15 +537,19 @@ h2.salmon-underline:after {
     max-width: 20%;
     text-align: center;
   }
+
   .sm-fz {
     font-size: 1.5rem;
   }
+
   .event-description.about {
     font-size: 1.5rem;
   }
+
   .event-info.about p {
     font-size: 1.3rem;
   }
+
   .logo-font {
     font-size: 3rem;
   }
