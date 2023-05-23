@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+
 :root {
   --dark: #272a31;
   --salmon: #ee523c;
@@ -38,6 +39,7 @@ ul {
   font-size: 2rem;
   line-height: 1rem;
 }
+
 .hero {
   background-image: url(./img/bg-hero.png);
   background-repeat: no-repeat;
@@ -67,7 +69,7 @@ ul {
   font-weight: 700;
 }
 
-.red-bg H2 {
+.red-bg h2 {
   padding-left: 2.2rem;
 }
 
@@ -75,9 +77,6 @@ ul {
   background-image: url(./img/main-schedule-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.main-schedule {
   color: var(--grey);
 }
 
@@ -138,11 +137,6 @@ ul {
 
 .content-invited h4 {
   font-weight: 700;
-}
-
-.content-invited h5 {
-  color: #ee523c;
-  font-weight: 600;
 }
 
 .content-invited h5 {
