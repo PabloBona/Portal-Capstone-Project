@@ -157,7 +157,8 @@ If you found this project useful, please consider giving it a star on GitHub to 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-"The design concept was created by Cindy Shin and can be found on Behance. We appreciate her talent and creativity in providing the foundation for our project's visual aesthetics."
+"The design concept was created by Cindy Shin and can be found on Behance. We appreciate her talent and creativity in providing the foundation for our project's visual aesthetics." <br>
+<a href="https://www.behance.net/adagio07">Cindy Shin on Behance</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
