@@ -1,4 +1,4 @@
-/* Menu Burguer*/
+/* Menu Burguer */
 
 const menuButton = document.querySelector('.burguer-menu button');
 const mobileNav = document.querySelector('.navigation');
