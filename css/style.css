@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap');
+:root {
+  --dark: #272a31;
+  --salmon: #ee523c;
+  --grey: #d3d3d3;
+}
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar button {
+  border: none;
+  font-size: 1.5rem;
+}
+
+.date {
+  font-size: 2rem;
+  line-height: 1rem;
+}
+.list-unstyled button {
+  display: none;
+}
+/* TopNav ONLY IN 768 ++*/
+.top-nav {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+
+.logo-placeholder {
+  display: none;
+}
+
+.main-nav.scrolled {
+  background-color: #fff;
+}
+
+.navigation.active .nav-links {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110vh;
+  background: var(--salmon);
+  place-items: center;
+  z-index: 100;
+}
+
+.navigation.active .nav-links ul {
+  text-align: center;
+}
+
+.navigation.active .nav-links li a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.burguer-menu button {
+  z-index: 999;
+  position: relative;
+  border: none;
+}
+
+.burguer-menu button i {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navigation.active .burguer-menu button i {
+  color: #fff;
+  position: fixed;
+}
+
+.burguer-menu button:active {
+  border: none;
+}
+
+/* Hero */
+.hero {
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem 0 3rem;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero .event-description {
+  padding: 1rem;
+  border: 3px solid #fff;
+  font-size: 0.9rem;
+}
+
+.hero .city {
+  font-size: 0.9rem;
+  color: #7a7a7a;
+  font-weight: 700;
+}
+
+.hero .dates {
+  font-weight: 700;
+}
+
+.hero .red-bg {
+  background-image: url(../img/color-bg.jpg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+}
+
+/* Main Schedule*/
+h2.salmon-underline:after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--salmon);
+  width: 3rem;
+  margin: 0 auto;
+  margin-top: 0.7rem;
+}
+
+.main-schedule {
+  background-image: url(../img/main-schedule-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--grey);
+}
+
+.main-schedule p.main-program::after,
+.main-invited p.main-program::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--salmon);
+  margin: 0 15rem;
+  padding-top: 1rem;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.cardRow {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+}
+
+.main-partners img {
+  width: 17%;
+}
+
+.cardRow h3 {
+  color: var(--salmon);
+  font-size: 1.2rem;
+  min-width: 5rem;
+}
+
+.cardRow p {
+  font-size: 0.8rem;
+}
+
+.join-btn button {
+  background-color: #ee523c;
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 5%;
+  font-size: 1rem;
+}
+
+.cardRow img {
+  max-width: 3rem;
+}
+
+.titles-container h6 {
+  padding: 0 1rem 1rem 0;
+}
+
+.content-invited {
+  display: flex;
+  gap: 1rem;
+}
+
+.content-invited .speaker-pic {
+  max-width: 6.5rem;
+}
+
+.content-invited img {
+  max-width: 100%;
+}
+
+.content-invited h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.content-invited p {
+  font-size: 0.8rem;
+}
+
+.content-invited p.speaker-title {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--salmon);
+}
+
+.content-invited p.speaker-title:after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--grey);
+  margin: 0;
+  padding-top: 0.4rem;
+  width: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-invited h5 {
+  color: #ee523c;
+  font-weight: 600;
+}
+
+.content-invited h5 {
+  color: #ee523c;
+  font-weight: 600;
+}
+
+.invited-content p {
+  font-weight: 500;
+}
+
+.invited-content h5::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--salmon);
+  margin: 0;
+  padding-top: 0.7rem;
+  width: 4%;
+  margin-bottom: 1rem;
+}
+
+.bx-chevron-down {
+  color: #ee523c;
+  font-size: 1.8rem;
+}
+
+.more-invited-btn {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+/* About Page */
+.text-red {
+  color: var(--salmon);
+}
+
+.hero.about {
+  background-image: url(./img/bg-about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero.about h1 {
+  line-height: 2.9rem;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.hero.about h6 {
+  line-height: 1.75rem;
+}
+
+.event-description.about {
+  background-color: #fff;
+  padding: 1rem;
+  max-width: 90vw;
+  font-size: 0.9rem;
+  border: 1px solid var(--grey);
+}
+
+.event-info.about p {
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+.main-schedule-about h2:nth-child(2)::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--salmon);
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 6%;
+}
+
+.main-schedule-about p.main-program::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--salmon);
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 6%;
+}
+
+.main-schedule-about img.logo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sm-fz {
+  font-size: 0.7rem;
+  padding: 0.5rem 2rem;
+}
+
+.grey-bar {
+  border: 1px solid var(--grey);
+  margin-top: 4rem;
+}
+.last-meet img {
+  width: 100%;
+}
+
+.about-container-img {
+  border: 1px solid var(--grey);
+  padding: 1rem;
+  border-radius: 1px;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.text-overlay {
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: rgba(248, 0, 0, 0.4);
+}
+
+.text-overlay span {
+  display: block;
+}
+
+.show {
+  display: block;
+}
+
+.main-partners h2::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--salmon);
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 6%;
+}
+
+.main-partners {
+  background-color: #7a7a7a;
+  height: 30vh;
+  padding: 1rem;
+  color: #fff;
+  max-width: 100vw;
+}
+
+.main-partners .sp {
+  gap: 0.7rem;
+}
+.cardRow {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .list-unstyled button {
+    display: flex;
+  }
+  /* TopNav ONLY IN 768 ++*/
+  .top-nav {
+    display: block;
+    background-color: #272a31;
+  }
+  .social {
+    margin: 0;
+    padding: 0.2rem 0;
+    align-items: center;
+  }
+  .social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7rem;
+  }
+  .logo-placeholder {
+    display: block;
+  }
+  .logo-placeholder i {
+    color: #272a31;
+  }
+  .nav-links li a {
+    color: #272a31;
+  }
+  .nav-links a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .nav-links a:hover {
+    color: var(--salmon);
+  }
+  .list-unstyled button {
+    background-color: #fff;
+    font-size: 0.7rem;
+    border: 1px solid var(--salmon);
+    color: var(--salmon);
+  }
+
+  .list-unstyled button:hover {
+    color: var(--salmon);
+    background-color: #fff;
+    border-color: var(--salmon);
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  .nav-links {
+    display: block;
+  }
+  .nav-links ul {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+  }
+  .burguer-menu {
+    display: none;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .cardRow {
+    display: block;
+  }
+  .speaker-contain {
+    margin-bottom: 2rem;
+  }
+  .cardRow img {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .program {
+    flex-direction: row;
+    gap: 0.2rem;
+  }
+
+  .program .cardRow {
+    max-width: 20%;
+    text-align: center;
+  }
+
+  .sm-fz {
+    font-size: 1.2rem;
+  }
+
+  .event-description.about {
+    font-size: 1.2rem;
+  }
+
+  .event-info.about p {
+    font-size: 1rem;
+  }
+  .logo-font {
+    font-size: 2rem;
+  }
+
+  .last-meet {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero h1 {
+    font-size: 5rem;
+  }
+
+  .hero h1 span {
+    display: block;
+  }
+  .cardRow img {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .program {
+    flex-direction: row;
+    gap: 0.2rem;
+  }
+
+  .program .cardRow {
+    max-width: 20%;
+    text-align: center;
+  }
+  .sm-fz {
+    font-size: 1.5rem;
+  }
+  .event-description.about {
+    font-size: 1.5rem;
+  }
+  .event-info.about p {
+    font-size: 1.3rem;
+  }
+  .logo-font {
+    font-size: 3rem;
+  }
+}
