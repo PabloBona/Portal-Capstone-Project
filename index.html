@@ -3,21 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>World Food Conference 2023</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header id="start-index" class="main-nav">
+    <header id="start" class="main-nav">
       <div class="top-nav">
         <div class="container">
           <div class="row">
@@ -37,259 +34,166 @@
           </div>
         </div>
       </div>
-      <nav class="navigation">
-        <div class="logo-placeholder">
-          <a href="/index.html#start-index" target="_blank" rel="noopener"
-            ><i class="bx bxs-bowl-hot">HealthyFood</i></a
-          >
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="navigation">
+              <div class="logo-placeholder">
+                <a class="btn" href="./index.html"><img src="./img/logo.svg" alt="Healthy Food Logo" /></a>
+              </div>
+              <div class="burguer-menu">
+                <button class="btn" type="button">
+                  <i class="bx bx-menu"></i>
+                </button>
+              </div>
+              <div class="nav-links">
+                <ul class="list-unstyled align-items-center">
+                  <li><a href="./index.html#start">Home</a></li>
+                  <li><a href="./about.html#start">About</a></li>
+                  <li><a href="#contact">Join</a></li>
+                  <li><a href="#contact">Sponsor</a></li>
+                  <li><a href="#contact">News</a></li>
+                  <li><button class="btn">Hf JoinUs</button></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
-        <div class="burguer-menu">
-          <button class="btn" type="button">
-            <i class="bx bx-menu"></i>
-          </button>
-        </div>
-        <div class="nav-links">
-          <ul class="list-unstyled">
-            <li><a id="port-link" href="/about.html#start">About</a></li>
-            <li><a id="about-link" href="#about">Program</a></li>
-            <li><a id="cont-link" href="#contact">Join</a></li>
-            <li><a id="cont-link" href="#contact">Sponsor</a></li>
-            <li><a id="cont-link" href="#contact">News</a></li>
-            <button class="btn">Hf JoinUs</button>
-          </ul>
-        </div>
-      </nav>
+      </div>
     </header>
 
-    <section class="hero">
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <span class="h3 red-bg">"Hello, Food Lovers"</span>
+              <h1 class="red-bg mb-4">Healthy food <span class="d-block">global summit</span> 2023</h1>
+              <p class="event-description">
+                We embrace the essence of healthy cooking as an invitation to prioritize self-care and embrace a
+                wholesome lifestyle, all while nurturing and preserving our precious planet.
+              </p>
+
+              <div class="event-info">
+                <p class="h2 dates">2023.05.15(Thu) ~ 16(Fri)</p>
+                <p class="city">@National University of Cooking, Mendoza</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-schedule py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center salmon-underline">Main Program</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="program">
+                <div class="cardRow align-items-center gap-4">
+                  <img src="./card iconos/Lecture.svg" alt="" />
+                  <h3>Healthy Nutrition</h3>
+                  <p class="m-0">
+                    The conference will cover a variety of relevant topics related to healthy food and the importance of
+                    a balanced diet
+                  </p>
+                </div>
+                <div class="cardRow align-items-center gap-4">
+                  <img src="./card iconos/Exhibition.svg" alt="" />
+                  <h3>Panel discussions</h3>
+                  <p class="m-0">
+                    Experts will share different perspectives on specific topics related to healthy food
+                  </p>
+                </div>
+                <div class="cardRow align-items-center gap-4">
+                  <img src="./card iconos/Forum.svg" alt="" />
+                  <h3>Practical workshops</h3>
+                  <p class="m-0">
+                    Hands-on workshops will be conducted where attendees can learn to prepare healthy recipes
+                  </p>
+                </div>
+                <div class="cardRow align-items-center gap-4">
+                  <img src="./card iconos/Workshop.svg" alt="" class="" />
+                  <h3>Inspiration</h3>
+                  <p class="m-0">
+                    The conference aims to inspire and motivate attendees to adopt healthy eating habits, providing
+                    success stories
+                  </p>
+                </div>
+                <div class="cardRow align-items-center gap-4">
+                  <img src="./card iconos/Ignite.svg" alt="" />
+                  <h3>Relevant topics</h3>
+                  <p class="m-0">
+                    The conference will feature nutrition experts who will share their knowledge with you
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <p class="text-center join-btn mt-5">
+                <button class="btn">Join WFC Conference 2023</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="featured-speakers py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center salmon-underline">Featured Speakers</h2>
+            </div>
+          </div>
+          <div class="row" id="invited"></div>
+          <div class="row">
+            <div class="col">
+              <button class="more-invited-btn border-1 rounded">MORE <i class="bx bx-chevron-down"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-partners">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center mb-4">Partners</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-4 col-md-2 d-flex align-items-center">
+              <img src="./img/iconos/mozilla.svg" alt="mozilla" />
+            </div>
+            <div class="col-4 col-md-2 d-flex align-items-center">
+              <img src="./img/iconos/google.svg" alt="google" />
+            </div>
+            <div class="col-4 col-md-2 d-flex align-items-center">
+              <img src="./img/iconos/naver.svg" alt="naver" />
+            </div>
+            <div class="col-4 col-md-2 d-flex align-items-center">
+              <img src="./img/iconos/daum.svg" alt="daum" />
+            </div>
+            <div class="col-4 col-md-2 d-flex align-items-center">
+              <img src="./img/iconos/airbnb.svg" alt="airbnb" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer py-3">
       <div class="container">
         <div class="row">
-          <div class="col-md-9">
-            <span class="h3 red-bg">"Hello, Food Lovers"</span>
-            <h1 class="red-bg mb-4">
-              Healthy food global summit <span>2023</span>
-            </h1>
-            <p class="event-description">
-              We embrace the essence of healthy cooking as an invitation to
-              prioritize self-care and embrace a wholesome lifestyle, all while
-              nurturing and preserving our precious planet.
-            </p>
-
-            <div class="event-info">
-              <p class="h2 dates">2023.05.15(Thu) ~ 16(Fri)</p>
-              <p class="city">@National University of Cooking, Mendoza</p>
-            </div>
+          <div class="col-6">
+            <img src="./img/logo.svg" alt="Healthy Food Logo" />
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="main-schedule py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2 class="text-center salmon-underline">Main Program</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <div class="program">
-              <div class="cardRow align-items-center gap-4">
-                <img src="./card iconos/Lecture.svg" alt="" />
-                <h3>Healthy Nutrition</h3>
-                <p class="m-0">
-                  The conference will cover a variety of relevant topics related
-                  to healthy food and the importance of a balanced diet
-                </p>
-              </div>
-              <div class="cardRow align-items-center gap-4">
-                <img src="./card iconos/Exhibition.svg" alt="" />
-                <h3>Panel discussions</h3>
-                <p class="m-0">
-                  Experts will share different perspectives on specific topics
-                  related to healthy food
-                </p>
-              </div>
-              <div class="cardRow align-items-center gap-4">
-                <img src="./card iconos/Forum.svg" alt="" />
-                <h3>Practical workshops</h3>
-                <p class="m-0">
-                  Hands-on workshops will be conducted where attendees can learn
-                  to prepare healthy recipes
-                </p>
-              </div>
-              <div class="cardRow align-items-center gap-4">
-                <img src="./card iconos/Workshop.svg" alt="" class="" />
-                <h3>Inspiration</h3>
-                <p class="m-0">
-                  The conference aims to inspire and motivate attendees to adopt
-                  healthy eating habits, providing success stories
-                </p>
-              </div>
-              <div class="cardRow align-items-center gap-4">
-                <img src="./card iconos/Ignite.svg" alt="" />
-                <h3>Relevant topics</h3>
-                <p class="m-0">
-                  The conference will feature nutrition experts who will share
-                  their knowledge with you
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <p class="text-center join-btn mt-5">
-              <button>Join WFC Conference 2023</button>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="main-invited py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2 class="text-center salmon-underline">Featured Speakers</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-6 speaker-contain">
-            <div class="content-invited" id="elena">
-              <div class="speaker-pic">
-                <img src="./img/invited1.jpg" alt="elena" />
-              </div>
-              <div class="invited-content">
-                <h3 class="speaker-name">Elena Smith</h3>
-                <p class="speaker-title">
-                  Director of Art Cooking Center and a Member of MasterChef Cuba
-                </p>
-                <p>
-                  As the new winner of the Fried Chicken, Elena promotes now a
-                  healthy cook.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="content-invited" id="elena">
-              <div class="speaker-pic">
-                <img src="./img/invited2.jpg" alt="isabella" />
-              </div>
-              <div class="invited-content">
-                <h3 class="speaker-name">Isabella Johnson</h3>
-                <p class="speaker-title">
-                  Director of Art Cooking Center and a Member of MasterChef Cuba
-                </p>
-                <p>
-                  As the new winner of the Fried Chicken, Isabella promotes now
-                  a healthy cook.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 speaker-contain">
-            <div class="content-invited" id="elena">
-              <div class="speaker-pic">
-                <img src="./img/invited3.jpg" alt="elena" />
-              </div>
-              <div class="invited-content">
-                <h3 class="speaker-name">Elena Smith</h3>
-                <p class="speaker-title">
-                  Director of Art Cooking Center and a Member of MasterChef Cuba
-                </p>
-                <p>
-                  As the new winner of the Fried Chicken, Elena promotes now a
-                  healthy cook.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="content-invited" id="elena">
-              <div class="speaker-pic">
-                <img src="./img/invited4.jpg" alt="isabella" />
-              </div>
-              <div class="invited-content">
-                <h3 class="speaker-name">Isabella Johnson</h3>
-                <p class="speaker-title">
-                  Director of Art Cooking Center and a Member of MasterChef Cuba
-                </p>
-                <p>
-                  As the new winner of the Fried Chicken, Isabella promotes now
-                  a healthy cook.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="content-invited" id="elena">
-              <div class="speaker-pic">
-                <img src="./img/invited5.jpg" alt="elena" />
-              </div>
-              <div class="invited-content">
-                <h3 class="speaker-name">Elena Smith</h3>
-                <p class="speaker-title">
-                  Director of Art Cooking Center and a Member of MasterChef Cuba
-                </p>
-                <p>
-                  As the new winner of the Fried Chicken, Elena promotes now a
-                  healthy cook.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="content-invited" id="elena">
-              <div class="speaker-pic">
-                <img src="./img/invited6.jpg" alt="isabella" />
-              </div>
-              <div class="invited-content">
-                <h3 class="speaker-name">Isabella Johnson</h3>
-                <p class="speaker-title">
-                  Director of Art Cooking Center and a Member of MasterChef Cuba
-                </p>
-                <p>
-                  As the new winner of the Fried Chicken, Isabella promotes now
-                  a healthy cook.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button
-        class="container-md align-items-center more-invited-btn border-1 rounded"
-      >
-        MORE<i class="bx bx-chevron-down"></i>
-      </button>
-    </section>
-
-    <section class="main-partners">
-      <h2 class="text-center">Partners</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col d-flex justify-content-center sp">
-            <img src="./iconos/mozilla.svg" alt="mozilla" />
-            <img src="./iconos/google.svg" alt="google" />
-            <img src="./iconos/naver.svg" alt="naver" />
-            <img src="./iconos/daum.svg" alt="daum" />
-            <img src="./iconos/airbnb.svg" alt="airbnb" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col d-flex justify-content-center gap-4 mt-2">
-            <a class="navbar-brand" href="#"
-              ><i class="bx bxs-bowl-hot">HealthyFood</i></a
-            >
-            <p>2023 World Food Conference</p>
+          <div class="col-6 d-flex align-items-center justify-content-end">
+            <p class="m-0 text-right">2023 World Food Conference</p>
           </div>
         </div>
       </div>
