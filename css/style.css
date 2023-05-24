@@ -406,7 +406,16 @@ h2.salmon-underline::after {
   font-size: 0.7rem;
 }
 
+.main-footer-about {
+  font-size: 0.7rem;
+  background-color: #272a31;
+}
+
 .main-footer img {
+  max-width: 8rem;
+}
+
+.main-footer-about img {
   max-width: 8rem;
 }
 
@@ -560,6 +569,10 @@ h2.salmon-underline::after {
   .main-footer {
     font-size: 0.8rem;
   }
+
+  .main-footer-about {
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -604,6 +617,10 @@ h2.salmon-underline::after {
   }
 
   .main-footer {
+    font-size: 1rem;
+  }
+
+  .main-footer-about {
     font-size: 1rem;
   }
 }
